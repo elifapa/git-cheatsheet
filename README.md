@@ -1,5 +1,6 @@
 ## GIT CHEATSHEET
-![Git CheatSheet](push.png)
+
+<img src="push.png" width="700" height="400" />
 
 #### 1. When you want to push a locally residing code to your remote repo:
 `git init` create the local repository  
