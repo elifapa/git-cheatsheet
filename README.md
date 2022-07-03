@@ -28,3 +28,5 @@
   git checkout ＜remotebranch＞
   ```
 * `git merge <branch-name>` replace *branch-name* with the branch that you want to integrate into your current branch  
+* `git fetch` view the changes made in the remote repository without making any local changes  
+* `git pull` add remote changes to local repository  
