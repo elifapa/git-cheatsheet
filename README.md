@@ -15,6 +15,7 @@
 
 * `git branch <new-branch-name>` creates a new branch  
   `git branch` lists the current branches for your project  
+  * **Flags:** `-d <branch-name>` deletes the *branch-name*  
   
 * `git checkout` is a local operation that only operates on data that's already fetched  
   `git checkout <commit-hash>` go back to a previous state of your project code that you committed  
