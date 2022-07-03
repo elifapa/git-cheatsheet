@@ -26,3 +26,4 @@
   git fetch --all  
   git checkout ＜remotebranch＞
   ```
+* `git merge <branch-name>` replace *branch-name* with the branch that you want to integrate into your current branch  
