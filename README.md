@@ -9,6 +9,8 @@
 `git remote add origin  <REMOTE_URL>` point to your github (or any other remote) repo  
 `git push -u origin master` this command pushes your changes to your remote repo  
 
+* `git remote -v`  get a list of any configured remote URLs.  
+
 * `git log` see all the commits that were made for our project  
 
 * `git status` shows the state of the working directory and the staging area; which changes have been staged, which haven't, and which files aren't being tracked by Git  
