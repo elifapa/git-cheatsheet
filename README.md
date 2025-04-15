@@ -9,6 +9,18 @@
 `git remote add origin  <REMOTE_URL>` point to your github (or any other remote) repo  
 `git push -u origin master` this command pushes your changes to your remote repo  
 
+#### 2. Fetch remote changes and rebase your local commits  
+*Note:* Make sure to commit your local changes beforehand.  
+**Option 1 - More controlled**  
+```git
+git fetch origin
+git log origin/development-branch  # inspect what's new
+git rebase origin/development-branch
+```
+
+**Option 2 - Quick and simple**  
+`git pull --rebase origin development-branch`
+
 * `git remote -v`  get a list of any configured remote URLs.  
 
 * `git log` see all the commits that were made for our project  
@@ -17,7 +29,8 @@
 
 * `git branch <new-branch-name>` creates a new branch  
   `git branch` lists the current branches for your project  
-  * **Flags:** `-d <branch-name>` deletes the *branch-name*  
+  * `-d <branch-name>` deletes the *branch-name*
+  * `-vv` shows remote tracking branch per local branch
   
 * `git checkout` is a local operation that only operates on data that's already fetched  
   `git checkout <commit-hash>` go back to a previous state of your project code that you committed  
