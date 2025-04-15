@@ -21,6 +21,8 @@ git rebase origin/development-branch
 **Option 2 - Quick and simple**  
 `git pull --rebase origin development-branch`
 
+---
+
 * `git remote -v`  get a list of any configured remote URLs.  
 
 * `git log` see all the commits that were made for our project  
